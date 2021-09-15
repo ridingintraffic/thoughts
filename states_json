@@ -1,0 +1,110 @@
+{
+    "ResourceTagMappingList": [
+        {
+            "ResourceARN": "arn:aws:states:us-east-1:123123123:activity:integration-freddie-mac-lpa4-submit-assessment-prod",
+            "Tags": [
+                {
+                    "Key": "Owner",
+                    "Value": "Integration"
+                },
+                {
+                    "Key": "Repository",
+                    "Value": "https://github.com/some_name/integration-freddie-mac-lpa4"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "prod"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:states:us-east-1:123123123:activity:check-job-executions-prod",
+            "Tags": [
+                {
+                    "Key": "Owner",
+                    "Value": "Platform"
+                },
+                {
+                    "Key": "Repository",
+                    "Value": "https://github.com/some_name/dogfood"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "prod"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:states:us-east-1:123123123:activity:document-service-export-pdf-prod",
+            "Tags": [
+                {
+                    "Key": "Repository",
+                    "Value": "https://github.com/some_name/document-service"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "prod"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:states:us-east-1:123123123:stateMachine:aliens-upload-resource-prod",
+            "Tags": [
+                {
+                    "Key": "alert-sfn-failure-threshold",
+                    "Value": "10"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "Integration"
+                },
+                {
+                    "Key": "Repository",
+                    "Value": "https://github.com/some_name/dogfood"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "prod"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:states:us-east-1:123123123:stateMachine:arrow-upload-attachment-prod",
+            "Tags": [
+                {
+                    "Key": "alert-sfn-failure-threshold",
+                    "Value": "5"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "Integration"
+                },
+                {
+                    "Key": "Repository",
+                    "Value": "https://github.com/some_name/dogfood"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "prod"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:states:us-east-1:123123123:stateMachine:arrow-write-loan-data-prod",
+            "Tags": [
+                {
+                    "Key": "Owner",
+                    "Value": "Integration"
+                },
+                {
+                    "Key": "Repository",
+                    "Value": "https://github.com/some_name/dogfood"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "prod"
+                }
+            ]
+        }
+    ]
+}
